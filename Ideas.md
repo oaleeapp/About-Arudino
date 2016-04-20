@@ -27,3 +27,13 @@
 [相關教學](http://www.instructables.com/howto/Useless+box/)
 
 [![Capacitive Touch Drum Machine](http://img.youtube.com/vi/wlslwdB9Z4g/0.jpg)](https://www.youtube.com/watch?v=wlslwdB9Z4g)
+
+### 6.互動投影牆、Augmented Reality Sandbox
+依照參與者的行為，觸發相對應的事件。讓參與者感覺可以觸碰到圖像並與之互動。
+
+[![Capacitive Touch Drum Machine](http://img.youtube.com/vi/sGOioI9vtBE/0.jpg)](https://www.youtube.com/watch?v=sGOioI9vtBE)
+
+[地貌投影箱](http://ar-sandbox.seabunny.tech)
+
+[![Capacitive Touch Drum Machine](http://img.youtube.com/vi/j9JXtTj0mzE/0.jpg)](https://www.youtube.com/watch?v=j9JXtTj0mzE)
+[![Capacitive Touch Drum Machine](http://img.youtube.com/vi/JMh-8dndAyI/0.jpg)](https://www.youtube.com/watch?v=JMh-8dndAyI)
