@@ -13,6 +13,7 @@
  2. [scratchX](http://scratchx.org)
  3. [s4a](http://s4a.cat)
  4. [s2a](http://okhiroyuki.github.io/Scratio/)
+ 5. [snap4a](http://s4a.cat/snap/)
  
 
 #####- **[Blockly](https://developers.google.com/blockly/)**
@@ -35,3 +36,10 @@ Blockly是一套Google開發的圖像式語言，同樣也是用拖拉的方式�
 - [Ameba Realtek](http://www.amebaiot.com/en/) - 價格便宜卻功能強大的Arduino Uno相容板
 - [Intel® Edison](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 - [MediaTek LinkIt™](http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit/whatis_linkit/index.gsp)
+
+
+#### 2.玩具
+
+- [mindstorms](http://www.lego.com/en-us/mindstorms/about-ev3)
+- [智高GigoToys](https://www.gigotoys.com/?lang=zh)
+- [mBot](http://www.makeblock.cc/mbot/)
