@@ -64,6 +64,7 @@
 
 ## 軟體 Arduino IDE and Programming Language
 
+  [相關程式語言Documents](https://www.arduino.cc/en/Reference/HomePage)
   如果你想要學習如何使用Arduino，可以先前往[這裡下載IDE](https://www.arduino.cc/en/Main/Software)。
   安裝之後，會看到一個像下面這個畫面：
   ![IDE圖片](https://www.arduino.cc/en/uploads/Guide/Arduino1Blink.png)
@@ -96,7 +97,8 @@ PS：也可以把副程式另外寫在同一個資料夾下的sketch內，利用
   這就有點像是Verify不會把程式燒到板子上，但會確認是否能夠順利compile。Upload會先做verify再將程式燒錄至Arduino板？
   
 #### Serial Monitor
-  可以利用`Serial.begin(9600);`等等相關的程式，來讓讀取到的資訊顯示在電腦上。要打開serial monitor可以點擊介面右上角的放大鏡。就可以打開。
+  可以利用`Serial.begin(9600);`等等相關的語法，來讓讀取到的資訊顯示在電腦上。要打開serial monitor可以點擊介面右上角的放大鏡。就可以打開。
+  進一步了解，請閱讀[Serial](https://www.arduino.cc/en/Reference/Serial)
   
 #### Example 範例
   如果你已經有閱讀他們的教學，應該可以很輕易的找到相對應的範例程式。在File/Examples裡面可以找到你要的程式。
