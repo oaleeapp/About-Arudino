@@ -3,7 +3,7 @@
 
 ## 軟體
 #### 1.圖像式語言
-- **[Scratch](https://scratch.mit.edu)**
+#####- **[Scratch](https://scratch.mit.edu)**
 ![Scratch](http://coderdojo.cs.dartmouth.edu/~coderdojo/wp-content/uploads/2014/11/scratchlogo.jpg)
 
 可利用Scratch當作介面，透過不同的方式與Arduino做溝通。
@@ -15,7 +15,7 @@
  4. [s2a](http://okhiroyuki.github.io/Scratio/)
  
 
- - **[Blockly](https://developers.google.com/blockly/)**
+#####- **[Blockly](https://developers.google.com/blockly/)**
 
  ![Blockly](https://cdn-educators.brainpop.com/wp-content/uploads/2013/10/blockly.png)
 
@@ -25,7 +25,8 @@ Blockly是一套Google開發的圖像式語言，同樣也是用拖拉的方式�
  2. [BlocklyDuino](https://github.com/BlocklyDuino/BlocklyDuino)
  3. [ArduBlockly](http://www.embeddedlog.com/ardublockly/)
 
- - **[ArduBlock](http://blog.ardublock.com)**
+#####- **[ArduBlock](http://blog.ardublock.com)**
+ 專門為Arduino設計的圖像式語言
  
 ## 硬體
 #### 1.相容板
