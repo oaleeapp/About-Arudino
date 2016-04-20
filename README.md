@@ -65,8 +65,10 @@
 ## 軟體 Arduino IDE and Programming Language
 
   [相關程式語言Documents](https://www.arduino.cc/en/Reference/HomePage)
+  
   如果你想要學習如何使用Arduino，可以先前往[這裡下載IDE](https://www.arduino.cc/en/Main/Software)。
   安裝之後，會看到一個像下面這個畫面：
+  
   ![IDE圖片](https://www.arduino.cc/en/uploads/Guide/Arduino1Blink.png)
   
   你可以在[這裡找到相關的官方教學](https://www.arduino.cc/en/Tutorial/BuiltInExamples)，甚至詳細地告訴你要如何接線。
