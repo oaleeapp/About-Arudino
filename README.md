@@ -45,12 +45,17 @@
 |寬度|53.4 mm|
 |重量|25 g|
 
-如果要比較的話，以大小來說，不能做為穿戴式裝置使用。以速度來說，16MHz跟其他的晶片規格比起來，算是很慢，另外他的微控制器是8-bit，所以就本身能力來說，並不是特別突出。
-不過，要用來開發簡單的原型(Prototype)產品或者是互動裝置，其實已經非常足夠，而且有清楚的腳位標示。以及基本的數位類比的輸出入。已經可以完成大部分的操作，另外在接腳部分都可以簡單地用杜邦線或一般的線連接，只要有一塊麵包板就可以很快地利用官方提供的教學上手。
+  如果要比較的話
 
-另外，連接電腦可以直接利用USB來操作，直接可以提供電源以及燒錄。如果要單純提供電源，也可以利用電池或變壓器皆交流電來接。
+  以大小來說，不能做為穿戴式裝置使用。
+  以速度來說，16MHz跟其他的晶片規格比起來，算是很慢，
+  另外他的微控制器是8-bit，所以就本身能力來說，並不是特別突出。
 
-其他相關資訊可以查看[官方網站](https://www.arduino.cc/en/Main/ArduinoBoardUno)
+  不過，要用來開發簡單的原型(Prototype)產品或者是互動裝置，其實已經非常足夠，而且有清楚的腳位標示。以及基本的數位類比的輸出入。已經可以完成大部分的操作，另外在接腳部分都可以簡單地用杜邦線或一般的線連接，只要有一塊麵包板就可以很快地利用官方提供的教學上手。
+
+  另外，連接電腦可以直接利用USB來操作，直接可以提供電源以及燒錄。如果要單純提供電源，也可以利用電池或變壓器接交流電。
+
+  其他相關資訊可以查看[官方網站](https://www.arduino.cc/en/Main/ArduinoBoardUno)
 
 
 
@@ -59,12 +64,45 @@
 
 ## 軟體 Arduino IDE and Programming Language
 
-  如果你想要學習如何使用Arduino，可以先前往[這裡](https://www.arduino.cc/en/Main/Software)下載IDE。
+  如果你想要學習如何使用Arduino，可以先前往[這裡下載IDE](https://www.arduino.cc/en/Main/Software)。
   安裝之後，會看到一個像下面這個畫面：
   ![IDE圖片](https://www.arduino.cc/en/uploads/Guide/Arduino1Blink.png)
   
-  你可以在[這裡](https://www.arduino.cc/en/Tutorial/BuiltInExamples)找到相關的官方教學，甚至詳細地告訴你要如何接線。
+  你可以在[這裡找到相關的官方教學](https://www.arduino.cc/en/Tutorial/BuiltInExamples)，甚至詳細地告訴你要如何接線。
   
   或者可以觀看Arduino Starter Kit的相關影片教學（老師是其中一個Arduino的創辦人）
   [![Arduino教學影片](https://img.youtube.com/vi/2X8d_r0p92U/0.jpg)](https://www.youtube.com/watch?v=2X8d_r0p92U&list=PLEFD8868A15D860D7)
 
+  關於[IDE的教學](https://www.arduino.cc/en/Guide/Environment#toc7)可以從這邊看。
+  
+  不過有一些我每次都會check的地方，或者一些觀念會在以下說明。
+  
+####  Sketch
+  每一個Arduino的文檔都是一個sketch，檔案格式為.ino。
+  每個sketch專案裡面可以分為五個部分：
+  1. 最頂端的註釋：使用註解的方式對於這個案子的題目做一些簡單的介紹。
+  2. 變數宣告：在註解下面，會引用其他的library以及做一些基本的變數還有常數的宣告。
+  3. setup()：只會在最一開始執行一次的程式，是程式最先執行的地方，可以在此設定一些基本狀態，以及只需要執行一次的程式。
+  4. loop()：顧名思義，這個迴圈會持續的不停循環，主要的邏輯會放在這個函式內，可以在這邊讀取輸入的值，以及利用輸出操作不同的致動器(Actuator)。也可以使用Delay等等函式來決定速度。
+  5. 副程式：可以將較複雜或者會重複使用的邏輯，另外寫成函式。
+  
+PS：也可以把副程式另外寫在同一個資料夾下的sketch內，利用新增分頁的方式就可以開啟一個編輯區域。
+
+#### 檢查Tools/Board跟Tools/Port是否有連結
+  在每次開始用之前，檢查是否有正確連結Arduino板，以及是否有在Tools/Board裡面選擇正確的板子。另外為了要使用待會兒會介紹的serial monitor，要確定Tools/Port是否有正確選擇到目前USB接到的port。
+  若沒有看到相對應的板子，或者使用其他廠商開發的板子，可以在Board Manager裡面尋找，或者在該廠商的網站確認如何下載。
+  
+#### Verify 和 Upload
+  這就有點像是Verify不會把程式燒到板子上，但會確認是否能夠順利compile。Upload會先做verify再將程式燒錄至Arduino板？
+  
+#### Serial Monitor
+  可以利用`Serial.begin(9600);`等等相關的程式，來讓讀取到的資訊顯示在電腦上。要打開serial monitor可以點擊介面右上角的放大鏡。就可以打開。
+  
+#### Example 範例
+  如果你已經有閱讀他們的教學，應該可以很輕易的找到相對應的範例程式。在File/Examples裡面可以找到你要的程式。
+  可以好好利用它的[官方教學](https://www.arduino.cc/en/Tutorial/BuiltInExamples)，真的非常容易操作：）
+  
+  
+  以上就是關於Arduino以及相關硬體及軟體介面的相關介紹，歡迎分享。
+  
+  若有發現錯誤的地方也清通知我。
