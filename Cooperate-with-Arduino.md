@@ -14,6 +14,7 @@
  3. [s4a](http://s4a.cat)
  4. [s2a](http://okhiroyuki.github.io/Scratio/)
  5. [snap4a](http://s4a.cat/snap/)
+ 6. [WFduino](http://wf8266.com/wf8266r/tutorials/65_Sx4ABlocks)
  
 
 #####- **[Blockly](https://developers.google.com/blockly/)**
@@ -36,6 +37,7 @@ Blockly是一套Google開發的圖像式語言，同樣也是用拖拉的方式�
 - [Ameba Realtek](http://www.amebaiot.com/en/) - 價格便宜卻功能強大的Arduino Uno相容板
 - [Intel® Edison](https://www.arduino.cc/en/ArduinoCertified/IntelEdison)
 - [MediaTek LinkIt™](http://labs.mediatek.com/site/global/developer_tools/mediatek_linkit/whatis_linkit/index.gsp)
+- [WF8266R](http://wf8266.com/wf8266r/tutorials/65_Sx4ABlocks)
 
 
 #### 2.玩具
